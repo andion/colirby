@@ -1,6 +1,6 @@
 # Colirby
 
-TODO: Write a gem description
+Ruby wrapper for the 'Proyecto Colibrí' API: https://github.com/openkratio/proyecto-colibri 
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Member handling
+
+```ruby	
+# Using the same parameters as in http://proyectocolibri.es/documentacion/#!/member/
+Colirby::Client.member(parameters)
+```
 
 ## Contributing
 
