@@ -1,5 +1,9 @@
-require_relative 'colirby/version'
+require 'httparty'
+require 'hashie/mash'
 
 module Colirby
-  # Your code goes here...
+
+	Dir[File.dirname(__FILE__) + '/colirby/*.rb'].each do |file|
+	  require file
+	end
 end
