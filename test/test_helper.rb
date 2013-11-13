@@ -1,6 +1,6 @@
 require File.expand_path('../../lib/colirby.rb', __FILE__)
 require 'minitest/autorun'
-require 'turn'
+require 'turn/autorun'
 require 'webmock/minitest'
 require 'vcr'
 
