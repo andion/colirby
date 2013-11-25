@@ -1,0 +1,359 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote/3041955
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Thu, 14 Nov 2013 00:59:18 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://proyectocolibri.es/api/v1/vote/3041955/
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 14 Nov 2013 00:59:18 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote/3041955/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Nov 2013 00:59:18 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept,Cookie
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '{"date": "2013-05-30", "id": 3041955, "member": "/api/v1/member/342/",
+        "number": 4, "resource_uri": "/api/v1/vote/3041955/", "session_number": 111,
+        "vote": "No"}'
+    http_version: 
+  recorded_at: Thu, 14 Nov 2013 00:59:18 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote?member=1&number=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Thu, 14 Nov 2013 01:05:44 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://proyectocolibri.es/api/v1/vote/?member=1&number=1
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 14 Nov 2013 01:05:44 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote/?member=1&number=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Nov 2013 01:05:44 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept,Cookie
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJtZXRhIjogeyJsaW1pdCI6IDIwLCAibmV4dCI6ICIvYXBpL3YxL3ZvdGUv
+        P21lbWJlcj0xJmxpbWl0PTIwJm51bWJlcj0xJm9mZnNldD0yMCIsICJvZmZz
+        ZXQiOiAwLCAicHJldmlvdXMiOiBudWxsLCAidG90YWxfY291bnQiOiA5MH0s
+        ICJvYmplY3RzIjogW3siZGF0ZSI6ICIyMDEzLTA5LTEwIiwgImlkIjogMzcw
+        NzIxMCwgIm1lbWJlciI6ICIvYXBpL3YxL21lbWJlci8xLyIsICJudW1iZXIi
+        OiAxLCAicmVzb3VyY2VfdXJpIjogIi9hcGkvdjEvdm90ZS8zNzA3MjEwLyIs
+        ICJzZXNzaW9uX251bWJlciI6IDEyNSwgInZvdGUiOiAiTm8ifSwgeyJkYXRl
+        IjogIjIwMTMtMTAtMjMiLCAiaWQiOiAzNzA5NDQ3LCAibWVtYmVyIjogIi9h
+        cGkvdjEvbWVtYmVyLzEvIiwgIm51bWJlciI6IDEsICJyZXNvdXJjZV91cmki
+        OiAiL2FwaS92MS92b3RlLzM3MDk0NDcvIiwgInNlc3Npb25fbnVtYmVyIjog
+        MTQxLCAidm90ZSI6ICJObyJ9LCB7ImRhdGUiOiAiMjAxMy0xMC0yOSIsICJp
+        ZCI6IDM3MTA1MjAsICJtZW1iZXIiOiAiL2FwaS92MS9tZW1iZXIvMS8iLCAi
+        bnVtYmVyIjogMSwgInJlc291cmNlX3VyaSI6ICIvYXBpL3YxL3ZvdGUvMzcx
+        MDUyMC8iLCAic2Vzc2lvbl9udW1iZXIiOiAxNDIsICJ2b3RlIjogIk5vIn0s
+        IHsiZGF0ZSI6ICIyMDEyLTExLTI3IiwgImlkIjogMzU2NTEyNSwgIm1lbWJl
+        ciI6ICIvYXBpL3YxL21lbWJlci8xLyIsICJudW1iZXIiOiAxLCAicmVzb3Vy
+        Y2VfdXJpIjogIi9hcGkvdjEvdm90ZS8zNTY1MTI1LyIsICJzZXNzaW9uX251
+        bWJlciI6IDcxLCAidm90ZSI6ICJObyJ9LCB7ImRhdGUiOiAiMjAxMi0wNS0y
+        MyIsICJpZCI6IDMyOTM2ODQsICJtZW1iZXIiOiAiL2FwaS92MS9tZW1iZXIv
+        MS8iLCAibnVtYmVyIjogMSwgInJlc291cmNlX3VyaSI6ICIvYXBpL3YxL3Zv
+        dGUvMzI5MzY4NC8iLCAic2Vzc2lvbl9udW1iZXIiOiAzMywgInZvdGUiOiAi
+        Tm8ifSwgeyJkYXRlIjogIjIwMTItMDItMjMiLCAiaWQiOiAzNDIwODIyLCAi
+        bWVtYmVyIjogIi9hcGkvdjEvbWVtYmVyLzEvIiwgIm51bWJlciI6IDEsICJy
+        ZXNvdXJjZV91cmkiOiAiL2FwaS92MS92b3RlLzM0MjA4MjIvIiwgInNlc3Np
+        b25fbnVtYmVyIjogMTMsICJ2b3RlIjogIk5vIn0sIHsiZGF0ZSI6ICIyMDEy
+        LTAyLTE0IiwgImlkIjogMzQyMjgxMiwgIm1lbWJlciI6ICIvYXBpL3YxL21l
+        bWJlci8xLyIsICJudW1iZXIiOiAxLCAicmVzb3VyY2VfdXJpIjogIi9hcGkv
+        djEvdm90ZS8zNDIyODEyLyIsICJzZXNzaW9uX251bWJlciI6IDgsICJ2b3Rl
+        IjogIk5vIn0sIHsiZGF0ZSI6ICIyMDEyLTAyLTIxIiwgImlkIjogMzQyMzc1
+        MSwgIm1lbWJlciI6ICIvYXBpL3YxL21lbWJlci8xLyIsICJudW1iZXIiOiAx
+        LCAicmVzb3VyY2VfdXJpIjogIi9hcGkvdjEvdm90ZS8zNDIzNzUxLyIsICJz
+        ZXNzaW9uX251bWJlciI6IDExLCAidm90ZSI6ICJObyJ9LCB7ImRhdGUiOiAi
+        MjAxMi0wMS0xMSIsICJpZCI6IDM0MjYzNTAsICJtZW1iZXIiOiAiL2FwaS92
+        MS9tZW1iZXIvMS8iLCAibnVtYmVyIjogMSwgInJlc291cmNlX3VyaSI6ICIv
+        YXBpL3YxL3ZvdGUvMzQyNjM1MC8iLCAic2Vzc2lvbl9udW1iZXIiOiA0LCAi
+        dm90ZSI6ICJTw60ifSwgeyJkYXRlIjogIjIwMTItMDMtMTMiLCAiaWQiOiAz
+        NDI3MDMyLCAibWVtYmVyIjogIi9hcGkvdjEvbWVtYmVyLzEvIiwgIm51bWJl
+        ciI6IDEsICJyZXNvdXJjZV91cmkiOiAiL2FwaS92MS92b3RlLzM0MjcwMzIv
+        IiwgInNlc3Npb25fbnVtYmVyIjogMTcsICJ2b3RlIjogIlPDrSJ9LCB7ImRh
+        dGUiOiAiMjAxMi0wMy0xNSIsICJpZCI6IDM0MzEyMjEsICJtZW1iZXIiOiAi
+        L2FwaS92MS9tZW1iZXIvMS8iLCAibnVtYmVyIjogMSwgInJlc291cmNlX3Vy
+        aSI6ICIvYXBpL3YxL3ZvdGUvMzQzMTIyMS8iLCAic2Vzc2lvbl9udW1iZXIi
+        OiAxOSwgInZvdGUiOiAiU8OtIn0sIHsiZGF0ZSI6ICIyMDEyLTAzLTI5Iiwg
+        ImlkIjogMzQzNTc3OCwgIm1lbWJlciI6ICIvYXBpL3YxL21lbWJlci8xLyIs
+        ICJudW1iZXIiOiAxLCAicmVzb3VyY2VfdXJpIjogIi9hcGkvdjEvdm90ZS8z
+        NDM1Nzc4LyIsICJzZXNzaW9uX251bWJlciI6IDIyLCAidm90ZSI6ICJTw60i
+        fSwgeyJkYXRlIjogIjIwMTItMDUtMTciLCAiaWQiOiAzNDM3MTI4LCAibWVt
+        YmVyIjogIi9hcGkvdjEvbWVtYmVyLzEvIiwgIm51bWJlciI6IDEsICJyZXNv
+        dXJjZV91cmkiOiAiL2FwaS92MS92b3RlLzM0MzcxMjgvIiwgInNlc3Npb25f
+        bnVtYmVyIjogMzAsICJ2b3RlIjogIlPDrSJ9LCB7ImRhdGUiOiAiMjAxMi0w
+        NS0yOSIsICJpZCI6IDM0Mzc5NjEsICJtZW1iZXIiOiAiL2FwaS92MS9tZW1i
+        ZXIvMS8iLCAibnVtYmVyIjogMSwgInJlc291cmNlX3VyaSI6ICIvYXBpL3Yx
+        L3ZvdGUvMzQzNzk2MS8iLCAic2Vzc2lvbl9udW1iZXIiOiAzNCwgInZvdGUi
+        OiAiTm8ifSwgeyJkYXRlIjogIjIwMTItMDUtMzEiLCAiaWQiOiAzNDQ0MDQ1
+        LCAibWVtYmVyIjogIi9hcGkvdjEvbWVtYmVyLzEvIiwgIm51bWJlciI6IDEs
+        ICJyZXNvdXJjZV91cmkiOiAiL2FwaS92MS92b3RlLzM0NDQwNDUvIiwgInNl
+        c3Npb25fbnVtYmVyIjogMzYsICJ2b3RlIjogIlPDrSJ9LCB7ImRhdGUiOiAi
+        MjAxMi0wNS0yMiIsICJpZCI6IDMzNTA1NzAsICJtZW1iZXIiOiAiL2FwaS92
+        MS9tZW1iZXIvMS8iLCAibnVtYmVyIjogMSwgInJlc291cmNlX3VyaSI6ICIv
+        YXBpL3YxL3ZvdGUvMzM1MDU3MC8iLCAic2Vzc2lvbl9udW1iZXIiOiAzMiwg
+        InZvdGUiOiAiTm8ifSwgeyJkYXRlIjogIjIwMTItMDYtMTkiLCAiaWQiOiAz
+        NDY0OTE2LCAibWVtYmVyIjogIi9hcGkvdjEvbWVtYmVyLzEvIiwgIm51bWJl
+        ciI6IDEsICJyZXNvdXJjZV91cmkiOiAiL2FwaS92MS92b3RlLzM0NjQ5MTYv
+        IiwgInNlc3Npb25fbnVtYmVyIjogNDAsICJ2b3RlIjogIk5vIn0sIHsiZGF0
+        ZSI6ICIyMDEyLTA2LTIxIiwgImlkIjogMzQ2NzI0MCwgIm1lbWJlciI6ICIv
+        YXBpL3YxL21lbWJlci8xLyIsICJudW1iZXIiOiAxLCAicmVzb3VyY2VfdXJp
+        IjogIi9hcGkvdjEvdm90ZS8zNDY3MjQwLyIsICJzZXNzaW9uX251bWJlciI6
+        IDQyLCAidm90ZSI6ICJObyJ9LCB7ImRhdGUiOiAiMjAxMi0xMS0xMyIsICJp
+        ZCI6IDM2NDYzMzEsICJtZW1iZXIiOiAiL2FwaS92MS9tZW1iZXIvMS8iLCAi
+        bnVtYmVyIjogMSwgInJlc291cmNlX3VyaSI6ICIvYXBpL3YxL3ZvdGUvMzY0
+        NjMzMS8iLCAic2Vzc2lvbl9udW1iZXIiOiA2OCwgInZvdGUiOiAiTm8ifSwg
+        eyJkYXRlIjogIjIwMTItMDctMTkiLCAiaWQiOiAzNDcwNDgwLCAibWVtYmVy
+        IjogIi9hcGkvdjEvbWVtYmVyLzEvIiwgIm51bWJlciI6IDEsICJyZXNvdXJj
+        ZV91cmkiOiAiL2FwaS92MS92b3RlLzM0NzA0ODAvIiwgInNlc3Npb25fbnVt
+        YmVyIjogNDksICJ2b3RlIjogIk5vIn1dfQ==
+    http_version: 
+  recorded_at: Thu, 14 Nov 2013 01:05:44 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote?limit=10&member=1&number=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Thu, 14 Nov 2013 01:05:44 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://proyectocolibri.es/api/v1/vote/?member=1&number=1&limit=10
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 14 Nov 2013 01:05:45 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote/?limit=10&member=1&number=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Nov 2013 01:05:45 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept,Cookie
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJtZXRhIjogeyJsaW1pdCI6IDEwLCAibmV4dCI6ICIvYXBpL3YxL3ZvdGUv
+        P21lbWJlcj0xJmxpbWl0PTEwJm51bWJlcj0xJm9mZnNldD0xMCIsICJvZmZz
+        ZXQiOiAwLCAicHJldmlvdXMiOiBudWxsLCAidG90YWxfY291bnQiOiA5MH0s
+        ICJvYmplY3RzIjogW3siZGF0ZSI6ICIyMDEzLTA5LTEwIiwgImlkIjogMzcw
+        NzIxMCwgIm1lbWJlciI6ICIvYXBpL3YxL21lbWJlci8xLyIsICJudW1iZXIi
+        OiAxLCAicmVzb3VyY2VfdXJpIjogIi9hcGkvdjEvdm90ZS8zNzA3MjEwLyIs
+        ICJzZXNzaW9uX251bWJlciI6IDEyNSwgInZvdGUiOiAiTm8ifSwgeyJkYXRl
+        IjogIjIwMTMtMTAtMjMiLCAiaWQiOiAzNzA5NDQ3LCAibWVtYmVyIjogIi9h
+        cGkvdjEvbWVtYmVyLzEvIiwgIm51bWJlciI6IDEsICJyZXNvdXJjZV91cmki
+        OiAiL2FwaS92MS92b3RlLzM3MDk0NDcvIiwgInNlc3Npb25fbnVtYmVyIjog
+        MTQxLCAidm90ZSI6ICJObyJ9LCB7ImRhdGUiOiAiMjAxMy0xMC0yOSIsICJp
+        ZCI6IDM3MTA1MjAsICJtZW1iZXIiOiAiL2FwaS92MS9tZW1iZXIvMS8iLCAi
+        bnVtYmVyIjogMSwgInJlc291cmNlX3VyaSI6ICIvYXBpL3YxL3ZvdGUvMzcx
+        MDUyMC8iLCAic2Vzc2lvbl9udW1iZXIiOiAxNDIsICJ2b3RlIjogIk5vIn0s
+        IHsiZGF0ZSI6ICIyMDEyLTExLTI3IiwgImlkIjogMzU2NTEyNSwgIm1lbWJl
+        ciI6ICIvYXBpL3YxL21lbWJlci8xLyIsICJudW1iZXIiOiAxLCAicmVzb3Vy
+        Y2VfdXJpIjogIi9hcGkvdjEvdm90ZS8zNTY1MTI1LyIsICJzZXNzaW9uX251
+        bWJlciI6IDcxLCAidm90ZSI6ICJObyJ9LCB7ImRhdGUiOiAiMjAxMi0wNS0y
+        MyIsICJpZCI6IDMyOTM2ODQsICJtZW1iZXIiOiAiL2FwaS92MS9tZW1iZXIv
+        MS8iLCAibnVtYmVyIjogMSwgInJlc291cmNlX3VyaSI6ICIvYXBpL3YxL3Zv
+        dGUvMzI5MzY4NC8iLCAic2Vzc2lvbl9udW1iZXIiOiAzMywgInZvdGUiOiAi
+        Tm8ifSwgeyJkYXRlIjogIjIwMTItMDItMjMiLCAiaWQiOiAzNDIwODIyLCAi
+        bWVtYmVyIjogIi9hcGkvdjEvbWVtYmVyLzEvIiwgIm51bWJlciI6IDEsICJy
+        ZXNvdXJjZV91cmkiOiAiL2FwaS92MS92b3RlLzM0MjA4MjIvIiwgInNlc3Np
+        b25fbnVtYmVyIjogMTMsICJ2b3RlIjogIk5vIn0sIHsiZGF0ZSI6ICIyMDEy
+        LTAyLTE0IiwgImlkIjogMzQyMjgxMiwgIm1lbWJlciI6ICIvYXBpL3YxL21l
+        bWJlci8xLyIsICJudW1iZXIiOiAxLCAicmVzb3VyY2VfdXJpIjogIi9hcGkv
+        djEvdm90ZS8zNDIyODEyLyIsICJzZXNzaW9uX251bWJlciI6IDgsICJ2b3Rl
+        IjogIk5vIn0sIHsiZGF0ZSI6ICIyMDEyLTAyLTIxIiwgImlkIjogMzQyMzc1
+        MSwgIm1lbWJlciI6ICIvYXBpL3YxL21lbWJlci8xLyIsICJudW1iZXIiOiAx
+        LCAicmVzb3VyY2VfdXJpIjogIi9hcGkvdjEvdm90ZS8zNDIzNzUxLyIsICJz
+        ZXNzaW9uX251bWJlciI6IDExLCAidm90ZSI6ICJObyJ9LCB7ImRhdGUiOiAi
+        MjAxMi0wMS0xMSIsICJpZCI6IDM0MjYzNTAsICJtZW1iZXIiOiAiL2FwaS92
+        MS9tZW1iZXIvMS8iLCAibnVtYmVyIjogMSwgInJlc291cmNlX3VyaSI6ICIv
+        YXBpL3YxL3ZvdGUvMzQyNjM1MC8iLCAic2Vzc2lvbl9udW1iZXIiOiA0LCAi
+        dm90ZSI6ICJTw60ifSwgeyJkYXRlIjogIjIwMTItMDMtMTMiLCAiaWQiOiAz
+        NDI3MDMyLCAibWVtYmVyIjogIi9hcGkvdjEvbWVtYmVyLzEvIiwgIm51bWJl
+        ciI6IDEsICJyZXNvdXJjZV91cmkiOiAiL2FwaS92MS92b3RlLzM0MjcwMzIv
+        IiwgInNlc3Npb25fbnVtYmVyIjogMTcsICJ2b3RlIjogIlPDrSJ9XX0=
+    http_version: 
+  recorded_at: Thu, 14 Nov 2013 01:05:45 GMT
+recorded_with: VCR 2.7.0
