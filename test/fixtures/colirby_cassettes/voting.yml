@@ -1,0 +1,282 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/voting/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Tue, 26 Nov 2013 16:14:29 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://proyectocolibri.es/api/v1/voting/1/
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Cache:
+      - MISS from boxi.aytolacoruna.es
+      - MISS from wifer.aytolacoruna.es
+      X-Cache-Lookup:
+      - MISS from boxi.aytolacoruna.es:3128
+      - MISS from wifer.aytolacoruna.es:3128
+      Via:
+      - 1.0 boxi.aytolacoruna.es (squid/3.1.20), 1.1 wifer.aytolacoruna.es (squid/3.3.3)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 26 Nov 2013 16:14:30 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/voting/1/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 26 Nov 2013 16:14:30 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept,Cookie
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Cache:
+      - MISS from boxi.aytolacoruna.es
+      - MISS from wifer.aytolacoruna.es
+      X-Cache-Lookup:
+      - MISS from boxi.aytolacoruna.es:3128
+      - MISS from wifer.aytolacoruna.es:3128
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.0 boxi.aytolacoruna.es (squid/3.1.20), 1.1 wifer.aytolacoruna.es (squid/3.3.3)
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJhYnN0YWlucyI6IDE2LCAiYWdhaW5zdF92b3RlcyI6IDI4OCwgImFzc2Vu
+        dCI6IGZhbHNlLCAiYXR0ZW5kZWUiOiAzMjEsICJmb3Jfdm90ZXMiOiAxNywg
+        ImlkIjogMSwgIm5vX3ZvdGVzIjogMjksICJudW1iZXIiOiA0LCAicmVjb3Jk
+        X3RleHQiOiAiUHJveWVjdG8gZGUgTGV5IGRlIHRyYW5zcGFyZW5jaWEsIGFj
+        Y2VzbyBhIGxhIGluZm9ybWFjacOzbiBww7pibGljYSB5IGJ1ZW4gZ29iaWVy
+        bm8uIiwgInJlc291cmNlX3VyaSI6ICIvYXBpL3YxL3ZvdGluZy8xLyIsICJz
+        ZXNzaW9uIjogIi9hcGkvdjEvc2Vzc2lvbi8xLyIsICJzdWJncm91cF90ZXh0
+        IjogIlZvdGFjacOzbiBkZSBsYSBlbm1pZW5kYSBkZSB0ZXh0byBhbHRlcm5h
+        dGl2byBwcmVzZW50YWRhIHBvciBlbCBHcnVwbyBQYXJsYW1lbnRhcmlvIE1p
+        eHRvIChTci4gQm9zY2gpICIsICJzdWJncm91cF90aXRsZSI6ICJFbm1pZW5k
+        YSBkZSB0ZXh0byBhbHRlcm5hdGl2byIsICJ0aXRsZSI6ICJEZWJhdGVzIGRl
+        IHRvdGFsaWRhZCBkZSBpbmljaWF0aXZhcyBsZWdpc2xhdGl2YXMuIn0=
+    http_version: 
+  recorded_at: Tue, 26 Nov 2013 16:14:30 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/voting?limit=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Tue, 26 Nov 2013 16:15:53 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://proyectocolibri.es/api/v1/voting/?limit=5
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Cache:
+      - MISS from boxi.aytolacoruna.es
+      - MISS from wifer.aytolacoruna.es
+      X-Cache-Lookup:
+      - MISS from boxi.aytolacoruna.es:3128
+      - MISS from wifer.aytolacoruna.es:3128
+      Via:
+      - 1.0 boxi.aytolacoruna.es (squid/3.1.20), 1.1 wifer.aytolacoruna.es (squid/3.3.3)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 26 Nov 2013 16:15:54 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/voting/?limit=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 26 Nov 2013 16:15:54 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept,Cookie
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Cache:
+      - MISS from boxi.aytolacoruna.es
+      - MISS from wifer.aytolacoruna.es
+      X-Cache-Lookup:
+      - MISS from boxi.aytolacoruna.es:3128
+      - MISS from wifer.aytolacoruna.es:3128
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.0 boxi.aytolacoruna.es (squid/3.1.20), 1.1 wifer.aytolacoruna.es (squid/3.3.3)
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJtZXRhIjogeyJsaW1pdCI6IDUsICJuZXh0IjogIi9hcGkvdjEvdm90aW5n
+        Lz9saW1pdD01Jm9mZnNldD01IiwgIm9mZnNldCI6IDAsICJwcmV2aW91cyI6
+        IG51bGwsICJ0b3RhbF9jb3VudCI6IDIyODN9LCAib2JqZWN0cyI6IFt7ImFi
+        c3RhaW5zIjogMSwgImFnYWluc3Rfdm90ZXMiOiAzMjAsICJhc3NlbnQiOiBm
+        YWxzZSwgImF0dGVuZGVlIjogMzI3LCAiZm9yX3ZvdGVzIjogNiwgImlkIjog
+        MTAsICJub192b3RlcyI6IDIzLCAibnVtYmVyIjogNiwgInJlY29yZF90ZXh0
+        IjogIk1vY2nDs24gY29uc2VjdWVuY2lhIGRlIGludGVycGVsYWNpw7NuIHVy
+        Z2VudGUgc29icmUgbGEgZnVzacOzbiBkZSBtdW5pY2lwaW9zIHkgbGEgc3Vw
+        cmVzacOzbiBkZSBsYXMgZGlwdXRhY2lvbmVzIHByb3ZpbmNpYWxlcyBjb21v
+        IG1lam9yIG1hbmVyYSBkZSBnYXJhbnRpemFyIHVub3Mgc2VydmljaW9zIHDD
+        umJsaWNvcyBlc2VuY2lhbGVzIGlndWFsaXRhcmlvcywgc29zdGVuaWJsZXMg
+        eSBkZSBjYWxpZGFkLiIsICJyZXNvdXJjZV91cmkiOiAiL2FwaS92MS92b3Rp
+        bmcvMTAvIiwgInNlc3Npb24iOiAiL2FwaS92MS9zZXNzaW9uLzIvIiwgInN1
+        Ymdyb3VwX3RleHQiOiAiIiwgInN1Ymdyb3VwX3RpdGxlIjogIiIsICJ0aXRs
+        ZSI6ICJNb2Npb25lcyBjb25zZWN1ZW5jaWEgZGUgaW50ZXJwZWxhY2lvbmVz
+        IHVyZ2VudGVzLiJ9LCB7ImFic3RhaW5zIjogMiwgImFnYWluc3Rfdm90ZXMi
+        OiAzMjEsICJhc3NlbnQiOiBmYWxzZSwgImF0dGVuZGVlIjogMzI4LCAiZm9y
+        X3ZvdGVzIjogNSwgImlkIjogMTEsICJub192b3RlcyI6IDIyLCAibnVtYmVy
+        IjogMiwgInJlY29yZF90ZXh0IjogIlByb3Bvc2ljacOzbiBkZSBMZXkgT3Jn
+        w6FuaWNhIHJlbGF0aXZhIGEgbGEgcmVmb3JtYSBkZSBsYSBMZXkgT3Jnw6Fu
+        aWNhIDYvMjAwMiwgZGUgMjcgZGUganVuaW8sIGRlIFBhcnRpZG9zIFBvbMOt
+        dGljb3MuIiwgInJlc291cmNlX3VyaSI6ICIvYXBpL3YxL3ZvdGluZy8xMS8i
+        LCAic2Vzc2lvbiI6ICIvYXBpL3YxL3Nlc3Npb24vMi8iLCAic3ViZ3JvdXBf
+        dGV4dCI6ICIiLCAic3ViZ3JvdXBfdGl0bGUiOiAiIiwgInRpdGxlIjogIlRv
+        bWEgZW4gY29uc2lkZXJhY2nDs24gZGUgUHJvcG9zaWNpb25lcyBkZSBMZXku
+        In0sIHsiYWJzdGFpbnMiOiAyNCwgImFnYWluc3Rfdm90ZXMiOiAxODEsICJh
+        c3NlbnQiOiBmYWxzZSwgImF0dGVuZGVlIjogMzI5LCAiZm9yX3ZvdGVzIjog
+        MTI0LCAiaWQiOiAxMDMzLCAibm9fdm90ZXMiOiAyMSwgIm51bWJlciI6IDEy
+        NSwgInJlY29yZF90ZXh0IjogIiBBTkVYT1MgSSBBIFhWICAgIiwgInJlc291
+        cmNlX3VyaSI6ICIvYXBpL3YxL3ZvdGluZy8xMDMzLyIsICJzZXNzaW9uIjog
+        Ii9hcGkvdjEvc2Vzc2lvbi81NC8iLCAic3ViZ3JvdXBfdGV4dCI6ICJFbm1p
+        ZW5kYSAxNzY3IiwgInN1Ymdyb3VwX3RpdGxlIjogIkVubWllbmRhcyBkZWwg
+        R3J1cG8gUGFybGFtZW50YXJpbyBkZSBJVSwgSUNWLUVVaUEsIENIQTogTGEg
+        SXpxdWllcmRhIFBsdXJhbCIsICJ0aXRsZSI6ICJQcmVzdXB1ZXN0b3MgR2Vu
+        ZXJhbGVzIGRlbCBFc3RhZG8ifSwgeyJhYnN0YWlucyI6IDUsICJhZ2FpbnN0
+        X3ZvdGVzIjogMTczLCAiYXNzZW50IjogZmFsc2UsICJhdHRlbmRlZSI6IDMx
+        OCwgImZvcl92b3RlcyI6IDE0MCwgImlkIjogMTcsICJub192b3RlcyI6IDMy
+        LCAibnVtYmVyIjogNCwgInJlY29yZF90ZXh0IjogIlByb3Bvc2ljacOzbiBu
+        byBkZSBMZXkgc29icmUgYXl1ZGFzIGEgbG9zIG1lZGlvcyBkZSBjb211bmlj
+        YWNpw7NuIGltcHJlc29zIHkgYXJ0aWN1bGFjacOzbiBkZSBtZWRpZGFzIGFu
+        dGUgbGEgZ3JhdmUgc2l0dWFjacOzbiBsYWJvcmFsIGRlIGxvcyBwcm9mZXNp
+        b25hbGVzIGRlbCBwZXJpb2Rpc21vLCBwb3NpYmlsaXRhbmRvIHVuYSBmb3Jt
+        YWNpw7NuIGNvbnRpbnVhZGEgeSBlc3R1ZGlvcyByZWdsYWRvcyBxdWUgaGFi
+        aWxpdGVuIHBhcmEgZWplcmNlciBvdHJhcyBwcm9mZXNpb25lcyBhZmluZXMu
+        XG5cblNlIHZvdGEgZW4gbG9zIHTDqXJtaW5vcyBkZSBsYSBlbm1pZW5kYSB0
+        cmFuc2FjY2lvbmFsIHByZXNlbnRhZGEgcG9yIGxvcyBHcnVwb3MgTWl4dG8g
+        KFNyLiBCb3NjaCksIGRlIGxhIEl6cXVpZXJkYSBQbHVyYWwgeSBTb2NpYWxp
+        c3RhLiIsICJyZXNvdXJjZV91cmkiOiAiL2FwaS92MS92b3RpbmcvMTcvIiwg
+        InNlc3Npb24iOiAiL2FwaS92MS9zZXNzaW9uLzMvIiwgInN1Ymdyb3VwX3Rl
+        eHQiOiAiIiwgInN1Ymdyb3VwX3RpdGxlIjogIiIsICJ0aXRsZSI6ICJQcm9w
+        b3NpY2lvbmVzIG5vIGRlIExleS4ifSwgeyJhYnN0YWlucyI6IDE1LCAiYWdh
+        aW5zdF92b3RlcyI6IDE3MSwgImFzc2VudCI6IGZhbHNlLCAiYXR0ZW5kZWUi
+        OiAzMjYsICJmb3Jfdm90ZXMiOiAxNDAsICJpZCI6IDksICJub192b3RlcyI6
+        IDI0LCAibnVtYmVyIjogNSwgInJlY29yZF90ZXh0IjogIk1vY2nDs24gY29u
+        c2VjdWVuY2lhIGRlIGludGVycGVsYWNpw7NuIHVyZ2VudGUgc29icmUgbGFz
+        IGFjdHVhY2lvbmVzIGRlbCBHb2JpZXJubyBlbiByZWxhY2nDs24gY29uIGVs
+        IGF2YW5jZSBkZWwgZMOpZmljaXQgcMO6YmxpY28gZGVsIGVqZXJjaWNpbyAy
+        MDEyLlxuU2Ugdm90YSBlbiBsb3MgdMOpcm1pbm9zIHJlc3VsdGFudGVzIGRl
+        IGxhIGVubWllbmRhIHRyYW5zYWNjaW9uYWwgcHJlc2VudGFkYSBwb3IgZWwg
+        R3J1cG8gUGFybGFtZW50YXJpbyBTb2NpYWxpc3RhLCBlbCBHcnVwbyBQYXJs
+        YW1lbnRhcmlvIGRlIElVLCBJQ1YtRVVpQSwgQ0hBOiBMYSBJenF1aWVyZGEg
+        UGx1cmFsIHkgZWwgR3J1cG8gUGFybGFtZW50YXJpbyBkZSBVbmnDs24gUHJv
+        Z3Jlc28geSBEZW1vY3JhY2lhLiBcbiIsICJyZXNvdXJjZV91cmkiOiAiL2Fw
+        aS92MS92b3RpbmcvOS8iLCAic2Vzc2lvbiI6ICIvYXBpL3YxL3Nlc3Npb24v
+        Mi8iLCAic3ViZ3JvdXBfdGV4dCI6ICIiLCAic3ViZ3JvdXBfdGl0bGUiOiAi
+        IiwgInRpdGxlIjogIk1vY2lvbmVzIGNvbnNlY3VlbmNpYSBkZSBpbnRlcnBl
+        bGFjaW9uZXMgdXJnZW50ZXMuIn1dfQ==
+    http_version: 
+  recorded_at: Tue, 26 Nov 2013 16:15:55 GMT
+recorded_with: VCR 2.7.0

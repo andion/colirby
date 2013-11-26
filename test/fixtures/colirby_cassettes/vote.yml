@@ -356,4 +356,447 @@ http_interactions:
         IiwgInNlc3Npb25fbnVtYmVyIjogMTcsICJ2b3RlIjogIlPDrSJ9XX0=
     http_version: 
   recorded_at: Thu, 14 Nov 2013 01:05:45 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote_full?limit=10&member=1&number=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Tue, 26 Nov 2013 16:13:53 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://proyectocolibri.es/api/v1/vote_full/?member=1&number=1&limit=10
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Cache:
+      - MISS from boxi.aytolacoruna.es
+      - MISS from wifer.aytolacoruna.es
+      X-Cache-Lookup:
+      - MISS from boxi.aytolacoruna.es:3128
+      - MISS from wifer.aytolacoruna.es:3128
+      Via:
+      - 1.0 boxi.aytolacoruna.es (squid/3.1.20), 1.1 wifer.aytolacoruna.es (squid/3.3.3)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 26 Nov 2013 16:13:54 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote_full/?limit=10&member=1&number=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Tue, 26 Nov 2013 16:13:53 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Vary:
+      - Cookie
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - '*'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from boxi.aytolacoruna.es
+      - MISS from wifer.aytolacoruna.es
+      X-Cache-Lookup:
+      - MISS from boxi.aytolacoruna.es:3128
+      - MISS from wifer.aytolacoruna.es:3128
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.0 boxi.aytolacoruna.es (squid/3.1.20), 1.1 wifer.aytolacoruna.es (squid/3.3.3)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"error": "The ''member'' field does not allow filtering."}'
+    http_version: 
+  recorded_at: Tue, 26 Nov 2013 16:13:54 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote_full?member=1&number=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Tue, 26 Nov 2013 16:13:53 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://proyectocolibri.es/api/v1/vote_full/?member=1&number=1
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Cache:
+      - MISS from boxi.aytolacoruna.es
+      - MISS from wifer.aytolacoruna.es
+      X-Cache-Lookup:
+      - MISS from boxi.aytolacoruna.es:3128
+      - MISS from wifer.aytolacoruna.es:3128
+      Via:
+      - 1.0 boxi.aytolacoruna.es (squid/3.1.20), 1.1 wifer.aytolacoruna.es (squid/3.3.3)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 26 Nov 2013 16:13:54 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote_full/?member=1&number=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Tue, 26 Nov 2013 16:13:53 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Vary:
+      - Cookie
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - '*'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from boxi.aytolacoruna.es
+      - MISS from wifer.aytolacoruna.es
+      X-Cache-Lookup:
+      - MISS from boxi.aytolacoruna.es:3128
+      - MISS from wifer.aytolacoruna.es:3128
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.0 boxi.aytolacoruna.es (squid/3.1.20), 1.1 wifer.aytolacoruna.es (squid/3.3.3)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"error": "The ''member'' field does not allow filtering."}'
+    http_version: 
+  recorded_at: Tue, 26 Nov 2013 16:13:54 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote_full?limit=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Tue, 26 Nov 2013 16:20:40 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://proyectocolibri.es/api/v1/vote_full/?limit=10
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Cache:
+      - MISS from boxi.aytolacoruna.es
+      - MISS from wifer.aytolacoruna.es
+      X-Cache-Lookup:
+      - MISS from boxi.aytolacoruna.es:3128
+      - MISS from wifer.aytolacoruna.es:3128
+      Via:
+      - 1.0 boxi.aytolacoruna.es (squid/3.1.20), 1.1 wifer.aytolacoruna.es (squid/3.3.3)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 26 Nov 2013 16:20:40 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote_full/?limit=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 26 Nov 2013 16:20:40 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept,Cookie
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Cache:
+      - MISS from boxi.aytolacoruna.es
+      - MISS from wifer.aytolacoruna.es
+      X-Cache-Lookup:
+      - MISS from boxi.aytolacoruna.es:3128
+      - MISS from wifer.aytolacoruna.es:3128
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.0 boxi.aytolacoruna.es (squid/3.1.20), 1.1 wifer.aytolacoruna.es (squid/3.3.3)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"meta": {"limit": 10, "next": "/api/v1/vote_full/?limit=10&offset=10",
+        "offset": 0, "previous": null, "total_count": 773029}, "objects": [{"id":
+        3042304, "member": "/api/v1/member/111/", "resource_uri": "/api/v1/vote_full/3042304/",
+        "vote": "No vota"}, {"id": 3042303, "member": "/api/v1/member/134/", "resource_uri":
+        "/api/v1/vote_full/3042303/", "vote": "No vota"}, {"id": 3042302, "member":
+        "/api/v1/member/219/", "resource_uri": "/api/v1/vote_full/3042302/", "vote":
+        "No vota"}, {"id": 3042301, "member": "/api/v1/member/221/", "resource_uri":
+        "/api/v1/vote_full/3042301/", "vote": "No vota"}, {"id": 3042300, "member":
+        "/api/v1/member/5/", "resource_uri": "/api/v1/vote_full/3042300/", "vote":
+        "No vota"}, {"id": 3042299, "member": "/api/v1/member/189/", "resource_uri":
+        "/api/v1/vote_full/3042299/", "vote": "No vota"}, {"id": 3042298, "member":
+        "/api/v1/member/138/", "resource_uri": "/api/v1/vote_full/3042298/", "vote":
+        "No vota"}, {"id": 3042297, "member": "/api/v1/member/300/", "resource_uri":
+        "/api/v1/vote_full/3042297/", "vote": "No vota"}, {"id": 3042296, "member":
+        "/api/v1/member/213/", "resource_uri": "/api/v1/vote_full/3042296/", "vote":
+        "No vota"}, {"id": 3042295, "member": "/api/v1/member/119/", "resource_uri":
+        "/api/v1/vote_full/3042295/", "vote": "No vota"}]}'
+    http_version: 
+  recorded_at: Tue, 26 Nov 2013 16:20:41 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote_full?
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Tue, 26 Nov 2013 16:20:40 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://proyectocolibri.es/api/v1/vote_full/
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Cache:
+      - MISS from boxi.aytolacoruna.es
+      - MISS from wifer.aytolacoruna.es
+      X-Cache-Lookup:
+      - MISS from boxi.aytolacoruna.es:3128
+      - MISS from wifer.aytolacoruna.es:3128
+      Via:
+      - 1.0 boxi.aytolacoruna.es (squid/3.1.20), 1.1 wifer.aytolacoruna.es (squid/3.3.3)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 26 Nov 2013 16:20:41 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/vote_full/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 26 Nov 2013 16:20:41 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept,Cookie
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Cache:
+      - MISS from boxi.aytolacoruna.es
+      - MISS from wifer.aytolacoruna.es
+      X-Cache-Lookup:
+      - MISS from boxi.aytolacoruna.es:3128
+      - MISS from wifer.aytolacoruna.es:3128
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.0 boxi.aytolacoruna.es (squid/3.1.20), 1.1 wifer.aytolacoruna.es (squid/3.3.3)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"meta": {"limit": 20, "next": "/api/v1/vote_full/?limit=20&offset=20",
+        "offset": 0, "previous": null, "total_count": 773029}, "objects": [{"id":
+        3042304, "member": "/api/v1/member/111/", "resource_uri": "/api/v1/vote_full/3042304/",
+        "vote": "No vota"}, {"id": 3042303, "member": "/api/v1/member/134/", "resource_uri":
+        "/api/v1/vote_full/3042303/", "vote": "No vota"}, {"id": 3042302, "member":
+        "/api/v1/member/219/", "resource_uri": "/api/v1/vote_full/3042302/", "vote":
+        "No vota"}, {"id": 3042301, "member": "/api/v1/member/221/", "resource_uri":
+        "/api/v1/vote_full/3042301/", "vote": "No vota"}, {"id": 3042300, "member":
+        "/api/v1/member/5/", "resource_uri": "/api/v1/vote_full/3042300/", "vote":
+        "No vota"}, {"id": 3042299, "member": "/api/v1/member/189/", "resource_uri":
+        "/api/v1/vote_full/3042299/", "vote": "No vota"}, {"id": 3042298, "member":
+        "/api/v1/member/138/", "resource_uri": "/api/v1/vote_full/3042298/", "vote":
+        "No vota"}, {"id": 3042297, "member": "/api/v1/member/300/", "resource_uri":
+        "/api/v1/vote_full/3042297/", "vote": "No vota"}, {"id": 3042296, "member":
+        "/api/v1/member/213/", "resource_uri": "/api/v1/vote_full/3042296/", "vote":
+        "No vota"}, {"id": 3042295, "member": "/api/v1/member/119/", "resource_uri":
+        "/api/v1/vote_full/3042295/", "vote": "No vota"}, {"id": 3042294, "member":
+        "/api/v1/member/128/", "resource_uri": "/api/v1/vote_full/3042294/", "vote":
+        "No vota"}, {"id": 3042293, "member": "/api/v1/member/308/", "resource_uri":
+        "/api/v1/vote_full/3042293/", "vote": "No vota"}, {"id": 3042292, "member":
+        "/api/v1/member/328/", "resource_uri": "/api/v1/vote_full/3042292/", "vote":
+        "No vota"}, {"id": 3042291, "member": "/api/v1/member/223/", "resource_uri":
+        "/api/v1/vote_full/3042291/", "vote": "No vota"}, {"id": 3042290, "member":
+        "/api/v1/member/247/", "resource_uri": "/api/v1/vote_full/3042290/", "vote":
+        "No vota"}, {"id": 3042289, "member": "/api/v1/member/274/", "resource_uri":
+        "/api/v1/vote_full/3042289/", "vote": "No vota"}, {"id": 3042288, "member":
+        "/api/v1/member/350/", "resource_uri": "/api/v1/vote_full/3042288/", "vote":
+        "No vota"}, {"id": 3042287, "member": "/api/v1/member/239/", "resource_uri":
+        "/api/v1/vote_full/3042287/", "vote": "No vota"}, {"id": 3042286, "member":
+        "/api/v1/member/56/", "resource_uri": "/api/v1/vote_full/3042286/", "vote":
+        "No vota"}, {"id": 3042285, "member": "/api/v1/member/50/", "resource_uri":
+        "/api/v1/vote_full/3042285/", "vote": "No vota"}]}'
+    http_version: 
+  recorded_at: Tue, 26 Nov 2013 16:20:42 GMT
 recorded_with: VCR 2.7.0

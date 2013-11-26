@@ -5,7 +5,7 @@ module Colirby
 	# 	decided to make two clients one wrapping exactly the original one and one more
 	# 	ruby-friendly
 	class Client
-		
+
 		#Configuration. Separate into Colirby::Configuration if grows
 		include HTTParty
 		base_uri 	'http://proyectocolibri.es/api/v1'
@@ -43,7 +43,7 @@ module Colirby
 		#
 		def self.groupmember(options={})
 			client_get 'member', options
-		end		
+		end
 
 		# Get a list of groups / one group if id provided. It also gets the group's members
 		#
@@ -65,13 +65,13 @@ module Colirby
 		#
 		def self.simple_group(options={})
 			client_get 'simple_group', options
-		end		
+		end
 
 		# Get a list of groups / one group if id provided
 		#
 		# @param options [Hash,Fixnum] options that /party can take or an id.
 		# 	see: {http://proyectocolibri.es/documentacion/#!/party/}
-		# @return [Array<Hashie::Mash>,<Hashie::Mash>] A Mash object with the +meta+ 
+		# @return [Array<Hashie::Mash>,<Hashie::Mash>] A Mash object with the +meta+
 		# 	and the +objects+ or a Mash with the party info if options is an id
 		#
 		def self.party(options={})
@@ -82,20 +82,62 @@ module Colirby
 		#
 		# @param options [Hash,Fixnum] same options as Colibri's endpoing or vote's id
 		# 	see: {http://proyectocolibri.es/documentacion/#!/vote/}
-		# return [Array<Hashie::Mash>,<Hashie::Mash>] A Mash object with the +meta+ 
-		# 	and the +objects+ or a Mash with the party info if options is an id
+		# @return [Array<Hashie::Mash>,<Hashie::Mash>] A Mash object with the +meta+
+		# 	and the +objects+ or a Mash with the vote info if options is an id
 		#
 		def self.vote(options={})
 			client_get 'vote', options
 		end
 
+		# Get a vote_full with the specified id / options
+		#
+		# @param options [Hash,Fixnum] same options as Colibri's endpoing or vote_full's id
+		# 	see: {http://proyectocolibri.es/documentacion/#!/vote_full/}
+		# @return [Array<Hashie::Mash>,<Hashie::Mash>] A Mash object with the +meta+
+		# 	and the +objects+ or a Mash with the vote_full info if options is an id
+		#
+		def self.vote_full(options={})
+			client_get 'vote_full', options
+		end
+
+		# Get a voting with the specified id / options
+		#
+		# @param options [Hash,Fixnum] same options as Colibri's endpoing or voting's id
+		# 	see: {http://proyectocolibri.es/documentacion/#!/voting/}
+		# @return [Array<Hashie::Mash>,<Hashie::Mash>] A Mash object with the +meta+
+		# 	and the +objects+ or a Mash with the voting info if options is an id
+		#
+		def self.voting(options={})
+			client_get 'voting', options
+		end
+
+		# Get a voting_full with the specified id / options
+		#
+		# @param options [Hash,Fixnum] same options as Colibri's endpoing or vote_full's id
+		# 	see: {http://proyectocolibri.es/documentacion/#!/voting_full/}
+		# @return [Array<Hashie::Mash>,<Hashie::Mash>] A Mash object with the +meta+
+		# 	and the +objects+ or a Mash with the voting_full info if options is an id
+		#
+		def self.voting_full(options={})
+			client_get 'voting_full', options
+		end
+
 
 		private
 
+		# Make a proper request if :id is provided /resource_name/:id
+		#
+		# @param resource_name [String, Symbol] Colibri's resource name
+		# @param options [Hash] Colibri's options
+		# @return [Array<Hashie::Mash>,<Hashie::Mash>] A Mash object with the +meta+
+		# 	and the +objects+ or a Mash with the object info if options is an id
+		#
+		# @todo HTTP error handling
+		#
 		def self.client_get(resource_name,options={})
 			if options.kind_of? Integer
 				Hashie::Mash.new get "/#{resource_name}/#{options}"
-			else			
+			else
 				Hashie::Mash.new get "/#{resource_name}", :query => options
 			end
 		end
