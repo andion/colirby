@@ -1,0 +1,617 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/session/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Fri, 29 Nov 2013 18:09:29 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://proyectocolibri.es/api/v1/session/1/
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Fri, 29 Nov 2013 18:09:34 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/session/1/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 29 Nov 2013 18:09:29 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept,Cookie
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '{"date": "2013-05-30", "id": 1, "resource_uri": "/api/v1/session/1/",
+        "session": 111, "votings": ["/api/v1/voting_full/1/", "/api/v1/voting_full/5/",
+        "/api/v1/voting_full/8/", "/api/v1/voting_full/7/", "/api/v1/voting_full/6/",
+        "/api/v1/voting_full/4/", "/api/v1/voting_full/3/", "/api/v1/voting_full/2/"]}'
+    http_version: 
+  recorded_at: Fri, 29 Nov 2013 18:09:34 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/session?
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Fri, 29 Nov 2013 18:09:29 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://proyectocolibri.es/api/v1/session/
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Fri, 29 Nov 2013 18:09:34 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/session/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 29 Nov 2013 18:09:29 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept,Cookie
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '{"meta": {"limit": 20, "next": "/api/v1/session/?limit=20&offset=20",
+        "offset": 0, "previous": null, "total_count": 97}, "objects": [{"date": "2012-02-09",
+        "id": 69, "resource_uri": "/api/v1/session/69/", "session": 7, "votings":
+        ["/api/v1/voting_full/1343/", "/api/v1/voting_full/1344/"]}, {"date": "2013-07-16",
+        "id": 82, "resource_uri": "/api/v1/session/82/", "session": 122, "votings":
+        ["/api/v1/voting_full/1936/", "/api/v1/voting_full/1935/"]}, {"date": "2013-06-20",
+        "id": 75, "resource_uri": "/api/v1/session/75/", "session": 117, "votings":
+        ["/api/v1/voting_full/1901/", "/api/v1/voting_full/1904/", "/api/v1/voting_full/1903/",
+        "/api/v1/voting_full/1905/", "/api/v1/voting_full/1902/", "/api/v1/voting_full/1900/",
+        "/api/v1/voting_full/1907/", "/api/v1/voting_full/1906/", "/api/v1/voting_full/1899/"]},
+        {"date": "2012-03-15", "id": 61, "resource_uri": "/api/v1/session/61/", "session":
+        19, "votings": ["/api/v1/voting_full/1403/", "/api/v1/voting_full/1404/",
+        "/api/v1/voting_full/1405/", "/api/v1/voting_full/1406/", "/api/v1/voting_full/1409/",
+        "/api/v1/voting_full/1407/", "/api/v1/voting_full/1326/", "/api/v1/voting_full/1408/"]},
+        {"date": "2012-03-27", "id": 71, "resource_uri": "/api/v1/session/71/", "session":
+        20, "votings": ["/api/v1/voting_full/1411/", "/api/v1/voting_full/1416/",
+        "/api/v1/voting_full/1412/", "/api/v1/voting_full/1417/", "/api/v1/voting_full/1413/",
+        "/api/v1/voting_full/1414/", "/api/v1/voting_full/1415/", "/api/v1/voting_full/1410/"]},
+        {"date": "2012-12-13", "id": 20, "resource_uri": "/api/v1/session/20/", "session":
+        77, "votings": ["/api/v1/voting_full/420/", "/api/v1/voting_full/417/", "/api/v1/voting_full/422/",
+        "/api/v1/voting_full/415/", "/api/v1/voting_full/416/", "/api/v1/voting_full/418/",
+        "/api/v1/voting_full/421/", "/api/v1/voting_full/419/", "/api/v1/voting_full/414/"]},
+        {"date": "2012-09-20", "id": 38, "resource_uri": "/api/v1/session/38/", "session":
+        56, "votings": ["/api/v1/voting_full/849/", "/api/v1/voting_full/1704/", "/api/v1/voting_full/1705/",
+        "/api/v1/voting_full/1703/"]}, {"date": "2012-12-18", "id": 17, "resource_uri":
+        "/api/v1/session/17/", "session": 78, "votings": ["/api/v1/voting_full/101/",
+        "/api/v1/voting_full/99/", "/api/v1/voting_full/100/", "/api/v1/voting_full/98/",
+        "/api/v1/voting_full/413/"]}, {"date": "2012-11-13", "id": 19, "resource_uri":
+        "/api/v1/session/19/", "session": 68, "votings": ["/api/v1/voting_full/109/",
+        "/api/v1/voting_full/107/", "/api/v1/voting_full/105/", "/api/v1/voting_full/103/",
+        "/api/v1/voting_full/106/", "/api/v1/voting_full/108/", "/api/v1/voting_full/117/",
+        "/api/v1/voting_full/116/", "/api/v1/voting_full/122/", "/api/v1/voting_full/125/",
+        "/api/v1/voting_full/128/", "/api/v1/voting_full/126/", "/api/v1/voting_full/118/",
+        "/api/v1/voting_full/120/", "/api/v1/voting_full/119/", "/api/v1/voting_full/121/",
+        "/api/v1/voting_full/123/", "/api/v1/voting_full/127/", "/api/v1/voting_full/129/",
+        "/api/v1/voting_full/134/", "/api/v1/voting_full/136/", "/api/v1/voting_full/130/",
+        "/api/v1/voting_full/131/", "/api/v1/voting_full/132/", "/api/v1/voting_full/133/",
+        "/api/v1/voting_full/135/", "/api/v1/voting_full/137/", "/api/v1/voting_full/139/",
+        "/api/v1/voting_full/141/", "/api/v1/voting_full/112/", "/api/v1/voting_full/138/",
+        "/api/v1/voting_full/140/", "/api/v1/voting_full/111/", "/api/v1/voting_full/110/",
+        "/api/v1/voting_full/115/", "/api/v1/voting_full/113/", "/api/v1/voting_full/124/",
+        "/api/v1/voting_full/149/", "/api/v1/voting_full/151/", "/api/v1/voting_full/150/",
+        "/api/v1/voting_full/154/", "/api/v1/voting_full/148/", "/api/v1/voting_full/155/",
+        "/api/v1/voting_full/161/", "/api/v1/voting_full/152/", "/api/v1/voting_full/158/",
+        "/api/v1/voting_full/156/", "/api/v1/voting_full/159/", "/api/v1/voting_full/157/",
+        "/api/v1/voting_full/164/", "/api/v1/voting_full/168/", "/api/v1/voting_full/167/",
+        "/api/v1/voting_full/165/", "/api/v1/voting_full/160/", "/api/v1/voting_full/166/",
+        "/api/v1/voting_full/162/", "/api/v1/voting_full/163/", "/api/v1/voting_full/174/",
+        "/api/v1/voting_full/170/", "/api/v1/voting_full/175/", "/api/v1/voting_full/171/",
+        "/api/v1/voting_full/169/", "/api/v1/voting_full/173/", "/api/v1/voting_full/172/",
+        "/api/v1/voting_full/176/", "/api/v1/voting_full/145/", "/api/v1/voting_full/144/",
+        "/api/v1/voting_full/143/", "/api/v1/voting_full/147/", "/api/v1/voting_full/146/",
+        "/api/v1/voting_full/189/", "/api/v1/voting_full/181/", "/api/v1/voting_full/187/",
+        "/api/v1/voting_full/184/", "/api/v1/voting_full/178/", "/api/v1/voting_full/190/",
+        "/api/v1/voting_full/192/", "/api/v1/voting_full/194/", "/api/v1/voting_full/191/",
+        "/api/v1/voting_full/193/", "/api/v1/voting_full/195/", "/api/v1/voting_full/196/",
+        "/api/v1/voting_full/199/", "/api/v1/voting_full/197/", "/api/v1/voting_full/198/",
+        "/api/v1/voting_full/203/", "/api/v1/voting_full/201/", "/api/v1/voting_full/202/",
+        "/api/v1/voting_full/200/", "/api/v1/voting_full/204/", "/api/v1/voting_full/205/",
+        "/api/v1/voting_full/206/", "/api/v1/voting_full/208/", "/api/v1/voting_full/210/",
+        "/api/v1/voting_full/209/", "/api/v1/voting_full/207/", "/api/v1/voting_full/183/",
+        "/api/v1/voting_full/179/", "/api/v1/voting_full/177/", "/api/v1/voting_full/182/",
+        "/api/v1/voting_full/180/", "/api/v1/voting_full/226/", "/api/v1/voting_full/215/",
+        "/api/v1/voting_full/216/", "/api/v1/voting_full/222/", "/api/v1/voting_full/225/",
+        "/api/v1/voting_full/224/", "/api/v1/voting_full/221/", "/api/v1/voting_full/217/",
+        "/api/v1/voting_full/227/", "/api/v1/voting_full/229/", "/api/v1/voting_full/228/",
+        "/api/v1/voting_full/234/", "/api/v1/voting_full/223/", "/api/v1/voting_full/233/",
+        "/api/v1/voting_full/235/", "/api/v1/voting_full/232/", "/api/v1/voting_full/236/",
+        "/api/v1/voting_full/237/", "/api/v1/voting_full/240/", "/api/v1/voting_full/239/",
+        "/api/v1/voting_full/241/", "/api/v1/voting_full/211/", "/api/v1/voting_full/230/",
+        "/api/v1/voting_full/212/", "/api/v1/voting_full/214/", "/api/v1/voting_full/219/",
+        "/api/v1/voting_full/218/", "/api/v1/voting_full/220/", "/api/v1/voting_full/231/",
+        "/api/v1/voting_full/248/", "/api/v1/voting_full/247/", "/api/v1/voting_full/257/",
+        "/api/v1/voting_full/246/", "/api/v1/voting_full/254/", "/api/v1/voting_full/259/",
+        "/api/v1/voting_full/258/", "/api/v1/voting_full/252/", "/api/v1/voting_full/251/",
+        "/api/v1/voting_full/261/", "/api/v1/voting_full/250/", "/api/v1/voting_full/255/",
+        "/api/v1/voting_full/260/", "/api/v1/voting_full/256/", "/api/v1/voting_full/267/",
+        "/api/v1/voting_full/269/", "/api/v1/voting_full/262/", "/api/v1/voting_full/263/",
+        "/api/v1/voting_full/264/", "/api/v1/voting_full/265/", "/api/v1/voting_full/268/",
+        "/api/v1/voting_full/266/", "/api/v1/voting_full/272/", "/api/v1/voting_full/274/",
+        "/api/v1/voting_full/271/", "/api/v1/voting_full/270/", "/api/v1/voting_full/275/",
+        "/api/v1/voting_full/243/", "/api/v1/voting_full/276/", "/api/v1/voting_full/273/",
+        "/api/v1/voting_full/245/", "/api/v1/voting_full/244/", "/api/v1/voting_full/249/",
+        "/api/v1/voting_full/253/", "/api/v1/voting_full/282/", "/api/v1/voting_full/281/",
+        "/api/v1/voting_full/286/", "/api/v1/voting_full/289/", "/api/v1/voting_full/284/",
+        "/api/v1/voting_full/288/", "/api/v1/voting_full/287/", "/api/v1/voting_full/291/",
+        "/api/v1/voting_full/295/", "/api/v1/voting_full/293/", "/api/v1/voting_full/292/",
+        "/api/v1/voting_full/290/", "/api/v1/voting_full/294/", "/api/v1/voting_full/296/",
+        "/api/v1/voting_full/301/", "/api/v1/voting_full/298/", "/api/v1/voting_full/297/",
+        "/api/v1/voting_full/299/", "/api/v1/voting_full/304/", "/api/v1/voting_full/303/",
+        "/api/v1/voting_full/306/", "/api/v1/voting_full/310/", "/api/v1/voting_full/305/",
+        "/api/v1/voting_full/307/", "/api/v1/voting_full/308/", "/api/v1/voting_full/278/",
+        "/api/v1/voting_full/280/", "/api/v1/voting_full/277/", "/api/v1/voting_full/283/",
+        "/api/v1/voting_full/279/", "/api/v1/voting_full/285/", "/api/v1/voting_full/321/",
+        "/api/v1/voting_full/318/", "/api/v1/voting_full/313/", "/api/v1/voting_full/317/",
+        "/api/v1/voting_full/326/", "/api/v1/voting_full/319/", "/api/v1/voting_full/322/",
+        "/api/v1/voting_full/324/", "/api/v1/voting_full/323/", "/api/v1/voting_full/329/",
+        "/api/v1/voting_full/325/", "/api/v1/voting_full/330/", "/api/v1/voting_full/328/",
+        "/api/v1/voting_full/334/", "/api/v1/voting_full/327/", "/api/v1/voting_full/333/",
+        "/api/v1/voting_full/335/", "/api/v1/voting_full/331/", "/api/v1/voting_full/332/",
+        "/api/v1/voting_full/340/", "/api/v1/voting_full/338/", "/api/v1/voting_full/336/",
+        "/api/v1/voting_full/342/", "/api/v1/voting_full/339/", "/api/v1/voting_full/346/",
+        "/api/v1/voting_full/344/", "/api/v1/voting_full/337/", "/api/v1/voting_full/343/",
+        "/api/v1/voting_full/312/", "/api/v1/voting_full/311/", "/api/v1/voting_full/345/",
+        "/api/v1/voting_full/315/", "/api/v1/voting_full/316/", "/api/v1/voting_full/320/",
+        "/api/v1/voting_full/347/", "/api/v1/voting_full/114/", "/api/v1/voting_full/142/",
+        "/api/v1/voting_full/242/", "/api/v1/voting_full/213/", "/api/v1/voting_full/153/",
+        "/api/v1/voting_full/309/", "/api/v1/voting_full/314/", "/api/v1/voting_full/341/",
+        "/api/v1/voting_full/238/", "/api/v1/voting_full/185/", "/api/v1/voting_full/186/",
+        "/api/v1/voting_full/188/", "/api/v1/voting_full/300/", "/api/v1/voting_full/302/"]},
+        {"date": "2012-11-29", "id": 26, "resource_uri": "/api/v1/session/26/", "session":
+        74, "votings": ["/api/v1/voting_full/720/", "/api/v1/voting_full/1862/", "/api/v1/voting_full/1864/",
+        "/api/v1/voting_full/1865/", "/api/v1/voting_full/1863/", "/api/v1/voting_full/1866/",
+        "/api/v1/voting_full/1874/", "/api/v1/voting_full/1872/", "/api/v1/voting_full/1870/",
+        "/api/v1/voting_full/1873/", "/api/v1/voting_full/1875/", "/api/v1/voting_full/1881/",
+        "/api/v1/voting_full/1878/", "/api/v1/voting_full/1877/", "/api/v1/voting_full/1880/",
+        "/api/v1/voting_full/1876/", "/api/v1/voting_full/1883/", "/api/v1/voting_full/1882/",
+        "/api/v1/voting_full/1884/", "/api/v1/voting_full/1885/", "/api/v1/voting_full/1871/",
+        "/api/v1/voting_full/1868/", "/api/v1/voting_full/1869/", "/api/v1/voting_full/1867/",
+        "/api/v1/voting_full/1879/"]}, {"date": "2013-06-25", "id": 84, "resource_uri":
+        "/api/v1/session/84/", "session": 118, "votings": ["/api/v1/voting_full/1946/",
+        "/api/v1/voting_full/1940/", "/api/v1/voting_full/1941/", "/api/v1/voting_full/1945/",
+        "/api/v1/voting_full/1944/", "/api/v1/voting_full/1943/"]}, {"date": "2013-04-23",
+        "id": 5, "resource_uri": "/api/v1/session/5/", "session": 101, "votings":
+        ["/api/v1/voting_full/31/", "/api/v1/voting_full/34/", "/api/v1/voting_full/28/",
+        "/api/v1/voting_full/37/", "/api/v1/voting_full/26/", "/api/v1/voting_full/36/",
+        "/api/v1/voting_full/35/"]}, {"date": "2012-04-25", "id": 57, "resource_uri":
+        "/api/v1/session/57/", "session": 28, "votings": ["/api/v1/voting_full/1270/",
+        "/api/v1/voting_full/1269/", "/api/v1/voting_full/1268/", "/api/v1/voting_full/1272/",
+        "/api/v1/voting_full/1273/", "/api/v1/voting_full/1271/", "/api/v1/voting_full/1267/",
+        "/api/v1/voting_full/1274/"]}, {"date": "2013-04-18", "id": 6, "resource_uri":
+        "/api/v1/session/6/", "session": 100, "votings": ["/api/v1/voting_full/33/",
+        "/api/v1/voting_full/30/", "/api/v1/voting_full/27/", "/api/v1/voting_full/32/",
+        "/api/v1/voting_full/29/"]}, {"date": "2012-03-29", "id": 60, "resource_uri":
+        "/api/v1/session/60/", "session": 22, "votings": ["/api/v1/voting_full/1325/",
+        "/api/v1/voting_full/1324/", "/api/v1/voting_full/1421/", "/api/v1/voting_full/1418/",
+        "/api/v1/voting_full/1419/", "/api/v1/voting_full/1424/", "/api/v1/voting_full/1422/",
+        "/api/v1/voting_full/1423/", "/api/v1/voting_full/1425/", "/api/v1/voting_full/1426/",
+        "/api/v1/voting_full/1420/"]}, {"date": "2012-10-24", "id": 30, "resource_uri":
+        "/api/v1/session/30/", "session": 64, "votings": ["/api/v1/voting_full/736/"]},
+        {"date": "2012-06-12", "id": 43, "resource_uri": "/api/v1/session/43/", "session":
+        37, "votings": ["/api/v1/voting_full/886/", "/api/v1/voting_full/887/", "/api/v1/voting_full/889/",
+        "/api/v1/voting_full/888/", "/api/v1/voting_full/890/", "/api/v1/voting_full/885/"]},
+        {"date": "2012-05-17", "id": 51, "resource_uri": "/api/v1/session/51/", "session":
+        30, "votings": ["/api/v1/voting_full/909/", "/api/v1/voting_full/1557/", "/api/v1/voting_full/1558/",
+        "/api/v1/voting_full/1559/", "/api/v1/voting_full/1560/", "/api/v1/voting_full/1561/",
+        "/api/v1/voting_full/1570/", "/api/v1/voting_full/1566/", "/api/v1/voting_full/1575/",
+        "/api/v1/voting_full/1573/", "/api/v1/voting_full/1576/", "/api/v1/voting_full/1577/",
+        "/api/v1/voting_full/1579/", "/api/v1/voting_full/1572/", "/api/v1/voting_full/1580/",
+        "/api/v1/voting_full/1574/", "/api/v1/voting_full/1567/", "/api/v1/voting_full/1578/",
+        "/api/v1/voting_full/1565/", "/api/v1/voting_full/1568/", "/api/v1/voting_full/1569/",
+        "/api/v1/voting_full/1571/", "/api/v1/voting_full/1563/", "/api/v1/voting_full/1556/",
+        "/api/v1/voting_full/1564/", "/api/v1/voting_full/908/", "/api/v1/voting_full/1562/"]},
+        {"date": "2012-06-28", "id": 44, "resource_uri": "/api/v1/session/44/", "session":
+        45, "votings": ["/api/v1/voting_full/893/", "/api/v1/voting_full/1634/", "/api/v1/voting_full/1635/",
+        "/api/v1/voting_full/1633/", "/api/v1/voting_full/1632/", "/api/v1/voting_full/1637/",
+        "/api/v1/voting_full/1640/", "/api/v1/voting_full/1641/", "/api/v1/voting_full/1643/",
+        "/api/v1/voting_full/1642/", "/api/v1/voting_full/1644/", "/api/v1/voting_full/1639/",
+        "/api/v1/voting_full/1645/", "/api/v1/voting_full/1647/", "/api/v1/voting_full/1648/",
+        "/api/v1/voting_full/1628/", "/api/v1/voting_full/1629/", "/api/v1/voting_full/1630/",
+        "/api/v1/voting_full/1631/", "/api/v1/voting_full/1638/", "/api/v1/voting_full/1636/",
+        "/api/v1/voting_full/1649/", "/api/v1/voting_full/1658/", "/api/v1/voting_full/1659/",
+        "/api/v1/voting_full/1661/", "/api/v1/voting_full/1663/", "/api/v1/voting_full/1662/",
+        "/api/v1/voting_full/1664/", "/api/v1/voting_full/1666/", "/api/v1/voting_full/1665/",
+        "/api/v1/voting_full/1667/", "/api/v1/voting_full/1669/", "/api/v1/voting_full/1668/",
+        "/api/v1/voting_full/1670/", "/api/v1/voting_full/1671/", "/api/v1/voting_full/1652/",
+        "/api/v1/voting_full/1654/", "/api/v1/voting_full/1651/", "/api/v1/voting_full/1653/",
+        "/api/v1/voting_full/1656/", "/api/v1/voting_full/1655/", "/api/v1/voting_full/1657/",
+        "/api/v1/voting_full/1660/", "/api/v1/voting_full/1673/", "/api/v1/voting_full/1672/",
+        "/api/v1/voting_full/1646/", "/api/v1/voting_full/1650/"]}, {"date": "2012-05-23",
+        "id": 54, "resource_uri": "/api/v1/session/54/", "session": 33, "votings":
+        ["/api/v1/voting_full/1033/", "/api/v1/voting_full/1031/", "/api/v1/voting_full/1032/",
+        "/api/v1/voting_full/1034/", "/api/v1/voting_full/965/", "/api/v1/voting_full/964/",
+        "/api/v1/voting_full/1029/", "/api/v1/voting_full/917/", "/api/v1/voting_full/923/",
+        "/api/v1/voting_full/921/", "/api/v1/voting_full/915/", "/api/v1/voting_full/919/",
+        "/api/v1/voting_full/922/", "/api/v1/voting_full/926/", "/api/v1/voting_full/924/",
+        "/api/v1/voting_full/928/", "/api/v1/voting_full/930/", "/api/v1/voting_full/929/",
+        "/api/v1/voting_full/1030/", "/api/v1/voting_full/913/", "/api/v1/voting_full/914/",
+        "/api/v1/voting_full/920/", "/api/v1/voting_full/916/", "/api/v1/voting_full/918/",
+        "/api/v1/voting_full/925/", "/api/v1/voting_full/927/", "/api/v1/voting_full/936/",
+        "/api/v1/voting_full/934/", "/api/v1/voting_full/938/", "/api/v1/voting_full/940/",
+        "/api/v1/voting_full/942/", "/api/v1/voting_full/945/", "/api/v1/voting_full/939/",
+        "/api/v1/voting_full/948/", "/api/v1/voting_full/944/", "/api/v1/voting_full/941/",
+        "/api/v1/voting_full/943/", "/api/v1/voting_full/946/", "/api/v1/voting_full/951/",
+        "/api/v1/voting_full/949/", "/api/v1/voting_full/958/", "/api/v1/voting_full/953/",
+        "/api/v1/voting_full/950/", "/api/v1/voting_full/947/", "/api/v1/voting_full/956/",
+        "/api/v1/voting_full/952/", "/api/v1/voting_full/961/", "/api/v1/voting_full/954/",
+        "/api/v1/voting_full/960/", "/api/v1/voting_full/955/", "/api/v1/voting_full/963/",
+        "/api/v1/voting_full/959/", "/api/v1/voting_full/957/", "/api/v1/voting_full/932/",
+        "/api/v1/voting_full/962/", "/api/v1/voting_full/935/", "/api/v1/voting_full/931/",
+        "/api/v1/voting_full/937/", "/api/v1/voting_full/974/", "/api/v1/voting_full/972/",
+        "/api/v1/voting_full/976/", "/api/v1/voting_full/975/", "/api/v1/voting_full/977/",
+        "/api/v1/voting_full/978/", "/api/v1/voting_full/979/", "/api/v1/voting_full/980/",
+        "/api/v1/voting_full/981/", "/api/v1/voting_full/982/", "/api/v1/voting_full/984/",
+        "/api/v1/voting_full/983/", "/api/v1/voting_full/985/", "/api/v1/voting_full/989/",
+        "/api/v1/voting_full/986/", "/api/v1/voting_full/990/", "/api/v1/voting_full/992/",
+        "/api/v1/voting_full/993/", "/api/v1/voting_full/991/", "/api/v1/voting_full/995/",
+        "/api/v1/voting_full/997/", "/api/v1/voting_full/996/", "/api/v1/voting_full/994/",
+        "/api/v1/voting_full/966/", "/api/v1/voting_full/967/", "/api/v1/voting_full/969/",
+        "/api/v1/voting_full/970/", "/api/v1/voting_full/971/", "/api/v1/voting_full/973/",
+        "/api/v1/voting_full/1002/", "/api/v1/voting_full/1009/", "/api/v1/voting_full/1006/",
+        "/api/v1/voting_full/1003/", "/api/v1/voting_full/1008/", "/api/v1/voting_full/1012/",
+        "/api/v1/voting_full/1007/", "/api/v1/voting_full/1014/", "/api/v1/voting_full/1011/",
+        "/api/v1/voting_full/1018/", "/api/v1/voting_full/1015/", "/api/v1/voting_full/1017/",
+        "/api/v1/voting_full/1019/", "/api/v1/voting_full/1021/", "/api/v1/voting_full/1020/",
+        "/api/v1/voting_full/1022/", "/api/v1/voting_full/1024/", "/api/v1/voting_full/1023/",
+        "/api/v1/voting_full/1025/", "/api/v1/voting_full/1027/", "/api/v1/voting_full/1026/",
+        "/api/v1/voting_full/1028/", "/api/v1/voting_full/999/", "/api/v1/voting_full/1000/",
+        "/api/v1/voting_full/1005/", "/api/v1/voting_full/1004/", "/api/v1/voting_full/1010/",
+        "/api/v1/voting_full/1013/", "/api/v1/voting_full/1016/", "/api/v1/voting_full/1039/",
+        "/api/v1/voting_full/1044/", "/api/v1/voting_full/1043/", "/api/v1/voting_full/1042/",
+        "/api/v1/voting_full/1040/", "/api/v1/voting_full/1045/", "/api/v1/voting_full/1046/",
+        "/api/v1/voting_full/1047/", "/api/v1/voting_full/1054/", "/api/v1/voting_full/1053/",
+        "/api/v1/voting_full/1048/", "/api/v1/voting_full/1051/", "/api/v1/voting_full/1049/",
+        "/api/v1/voting_full/1055/", "/api/v1/voting_full/1057/", "/api/v1/voting_full/1058/",
+        "/api/v1/voting_full/1056/", "/api/v1/voting_full/1037/", "/api/v1/voting_full/1059/",
+        "/api/v1/voting_full/1060/", "/api/v1/voting_full/1061/", "/api/v1/voting_full/1062/",
+        "/api/v1/voting_full/1063/", "/api/v1/voting_full/1064/", "/api/v1/voting_full/1036/",
+        "/api/v1/voting_full/1052/", "/api/v1/voting_full/1041/", "/api/v1/voting_full/1038/",
+        "/api/v1/voting_full/1071/", "/api/v1/voting_full/1067/", "/api/v1/voting_full/1076/",
+        "/api/v1/voting_full/1072/", "/api/v1/voting_full/1074/", "/api/v1/voting_full/1073/",
+        "/api/v1/voting_full/1077/", "/api/v1/voting_full/1075/", "/api/v1/voting_full/1078/",
+        "/api/v1/voting_full/1081/", "/api/v1/voting_full/1066/", "/api/v1/voting_full/1084/",
+        "/api/v1/voting_full/1080/", "/api/v1/voting_full/1082/", "/api/v1/voting_full/1085/",
+        "/api/v1/voting_full/1086/", "/api/v1/voting_full/1083/", "/api/v1/voting_full/1088/",
+        "/api/v1/voting_full/1068/", "/api/v1/voting_full/1091/", "/api/v1/voting_full/1092/",
+        "/api/v1/voting_full/1095/", "/api/v1/voting_full/1094/", "/api/v1/voting_full/1090/",
+        "/api/v1/voting_full/1087/", "/api/v1/voting_full/1069/", "/api/v1/voting_full/1093/",
+        "/api/v1/voting_full/1089/", "/api/v1/voting_full/1079/", "/api/v1/voting_full/1070/",
+        "/api/v1/voting_full/1099/", "/api/v1/voting_full/1098/", "/api/v1/voting_full/1100/",
+        "/api/v1/voting_full/1106/", "/api/v1/voting_full/1105/", "/api/v1/voting_full/1107/",
+        "/api/v1/voting_full/1102/", "/api/v1/voting_full/1109/", "/api/v1/voting_full/1108/",
+        "/api/v1/voting_full/1111/", "/api/v1/voting_full/1110/", "/api/v1/voting_full/1113/",
+        "/api/v1/voting_full/1112/", "/api/v1/voting_full/1114/", "/api/v1/voting_full/1116/",
+        "/api/v1/voting_full/1117/", "/api/v1/voting_full/1115/", "/api/v1/voting_full/1119/",
+        "/api/v1/voting_full/1121/", "/api/v1/voting_full/1118/", "/api/v1/voting_full/1124/",
+        "/api/v1/voting_full/1122/", "/api/v1/voting_full/1127/", "/api/v1/voting_full/1103/",
+        "/api/v1/voting_full/1097/", "/api/v1/voting_full/1125/", "/api/v1/voting_full/1123/",
+        "/api/v1/voting_full/1096/", "/api/v1/voting_full/1101/", "/api/v1/voting_full/1104/",
+        "/api/v1/voting_full/1137/", "/api/v1/voting_full/1135/", "/api/v1/voting_full/1138/",
+        "/api/v1/voting_full/1136/", "/api/v1/voting_full/1141/", "/api/v1/voting_full/1139/",
+        "/api/v1/voting_full/1142/", "/api/v1/voting_full/1145/", "/api/v1/voting_full/1140/",
+        "/api/v1/voting_full/1146/", "/api/v1/voting_full/1143/", "/api/v1/voting_full/1144/",
+        "/api/v1/voting_full/1147/", "/api/v1/voting_full/1148/", "/api/v1/voting_full/1153/",
+        "/api/v1/voting_full/1149/", "/api/v1/voting_full/1151/", "/api/v1/voting_full/1152/",
+        "/api/v1/voting_full/1154/", "/api/v1/voting_full/1150/", "/api/v1/voting_full/1156/",
+        "/api/v1/voting_full/1132/", "/api/v1/voting_full/1128/", "/api/v1/voting_full/1155/",
+        "/api/v1/voting_full/1133/", "/api/v1/voting_full/1130/", "/api/v1/voting_full/933/",
+        "/api/v1/voting_full/968/", "/api/v1/voting_full/987/", "/api/v1/voting_full/988/",
+        "/api/v1/voting_full/998/", "/api/v1/voting_full/1001/", "/api/v1/voting_full/1035/",
+        "/api/v1/voting_full/1120/", "/api/v1/voting_full/1065/", "/api/v1/voting_full/1129/",
+        "/api/v1/voting_full/1131/", "/api/v1/voting_full/1134/", "/api/v1/voting_full/1126/",
+        "/api/v1/voting_full/1050/"]}]}'
+    http_version: 
+  recorded_at: Fri, 29 Nov 2013 18:09:35 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/session?limit=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Fri, 29 Nov 2013 18:09:31 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://proyectocolibri.es/api/v1/session/?limit=10
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Fri, 29 Nov 2013 18:09:36 GMT
+- request:
+    method: get
+    uri: http://proyectocolibri.es/api/v1/session/?limit=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 29 Nov 2013 18:09:31 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Access-Control-Allow-Headers:
+      - Accept, Accept-Charset, Accept-Encoding, Accept-Language, Connection, Content-Type,
+        Authorization, Cache-Control, Referer, User-Agent, Origin
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept,Cookie
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS, PUT, DELETE
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '{"meta": {"limit": 10, "next": "/api/v1/session/?limit=10&offset=10",
+        "offset": 0, "previous": null, "total_count": 97}, "objects": [{"date": "2012-02-09",
+        "id": 69, "resource_uri": "/api/v1/session/69/", "session": 7, "votings":
+        ["/api/v1/voting_full/1343/", "/api/v1/voting_full/1344/"]}, {"date": "2013-07-16",
+        "id": 82, "resource_uri": "/api/v1/session/82/", "session": 122, "votings":
+        ["/api/v1/voting_full/1936/", "/api/v1/voting_full/1935/"]}, {"date": "2013-06-20",
+        "id": 75, "resource_uri": "/api/v1/session/75/", "session": 117, "votings":
+        ["/api/v1/voting_full/1901/", "/api/v1/voting_full/1904/", "/api/v1/voting_full/1903/",
+        "/api/v1/voting_full/1905/", "/api/v1/voting_full/1902/", "/api/v1/voting_full/1900/",
+        "/api/v1/voting_full/1907/", "/api/v1/voting_full/1906/", "/api/v1/voting_full/1899/"]},
+        {"date": "2012-03-15", "id": 61, "resource_uri": "/api/v1/session/61/", "session":
+        19, "votings": ["/api/v1/voting_full/1403/", "/api/v1/voting_full/1404/",
+        "/api/v1/voting_full/1405/", "/api/v1/voting_full/1406/", "/api/v1/voting_full/1409/",
+        "/api/v1/voting_full/1407/", "/api/v1/voting_full/1326/", "/api/v1/voting_full/1408/"]},
+        {"date": "2012-03-27", "id": 71, "resource_uri": "/api/v1/session/71/", "session":
+        20, "votings": ["/api/v1/voting_full/1411/", "/api/v1/voting_full/1416/",
+        "/api/v1/voting_full/1412/", "/api/v1/voting_full/1417/", "/api/v1/voting_full/1413/",
+        "/api/v1/voting_full/1414/", "/api/v1/voting_full/1415/", "/api/v1/voting_full/1410/"]},
+        {"date": "2012-12-13", "id": 20, "resource_uri": "/api/v1/session/20/", "session":
+        77, "votings": ["/api/v1/voting_full/420/", "/api/v1/voting_full/417/", "/api/v1/voting_full/422/",
+        "/api/v1/voting_full/415/", "/api/v1/voting_full/416/", "/api/v1/voting_full/418/",
+        "/api/v1/voting_full/421/", "/api/v1/voting_full/419/", "/api/v1/voting_full/414/"]},
+        {"date": "2012-09-20", "id": 38, "resource_uri": "/api/v1/session/38/", "session":
+        56, "votings": ["/api/v1/voting_full/849/", "/api/v1/voting_full/1704/", "/api/v1/voting_full/1705/",
+        "/api/v1/voting_full/1703/"]}, {"date": "2012-12-18", "id": 17, "resource_uri":
+        "/api/v1/session/17/", "session": 78, "votings": ["/api/v1/voting_full/101/",
+        "/api/v1/voting_full/99/", "/api/v1/voting_full/100/", "/api/v1/voting_full/98/",
+        "/api/v1/voting_full/413/"]}, {"date": "2012-11-13", "id": 19, "resource_uri":
+        "/api/v1/session/19/", "session": 68, "votings": ["/api/v1/voting_full/109/",
+        "/api/v1/voting_full/107/", "/api/v1/voting_full/105/", "/api/v1/voting_full/103/",
+        "/api/v1/voting_full/106/", "/api/v1/voting_full/108/", "/api/v1/voting_full/117/",
+        "/api/v1/voting_full/116/", "/api/v1/voting_full/122/", "/api/v1/voting_full/125/",
+        "/api/v1/voting_full/128/", "/api/v1/voting_full/126/", "/api/v1/voting_full/118/",
+        "/api/v1/voting_full/120/", "/api/v1/voting_full/119/", "/api/v1/voting_full/121/",
+        "/api/v1/voting_full/123/", "/api/v1/voting_full/127/", "/api/v1/voting_full/129/",
+        "/api/v1/voting_full/134/", "/api/v1/voting_full/136/", "/api/v1/voting_full/130/",
+        "/api/v1/voting_full/131/", "/api/v1/voting_full/132/", "/api/v1/voting_full/133/",
+        "/api/v1/voting_full/135/", "/api/v1/voting_full/137/", "/api/v1/voting_full/139/",
+        "/api/v1/voting_full/141/", "/api/v1/voting_full/112/", "/api/v1/voting_full/138/",
+        "/api/v1/voting_full/140/", "/api/v1/voting_full/111/", "/api/v1/voting_full/110/",
+        "/api/v1/voting_full/115/", "/api/v1/voting_full/113/", "/api/v1/voting_full/124/",
+        "/api/v1/voting_full/149/", "/api/v1/voting_full/151/", "/api/v1/voting_full/150/",
+        "/api/v1/voting_full/154/", "/api/v1/voting_full/148/", "/api/v1/voting_full/155/",
+        "/api/v1/voting_full/161/", "/api/v1/voting_full/152/", "/api/v1/voting_full/158/",
+        "/api/v1/voting_full/156/", "/api/v1/voting_full/159/", "/api/v1/voting_full/157/",
+        "/api/v1/voting_full/164/", "/api/v1/voting_full/168/", "/api/v1/voting_full/167/",
+        "/api/v1/voting_full/165/", "/api/v1/voting_full/160/", "/api/v1/voting_full/166/",
+        "/api/v1/voting_full/162/", "/api/v1/voting_full/163/", "/api/v1/voting_full/174/",
+        "/api/v1/voting_full/170/", "/api/v1/voting_full/175/", "/api/v1/voting_full/171/",
+        "/api/v1/voting_full/169/", "/api/v1/voting_full/173/", "/api/v1/voting_full/172/",
+        "/api/v1/voting_full/176/", "/api/v1/voting_full/145/", "/api/v1/voting_full/144/",
+        "/api/v1/voting_full/143/", "/api/v1/voting_full/147/", "/api/v1/voting_full/146/",
+        "/api/v1/voting_full/189/", "/api/v1/voting_full/181/", "/api/v1/voting_full/187/",
+        "/api/v1/voting_full/184/", "/api/v1/voting_full/178/", "/api/v1/voting_full/190/",
+        "/api/v1/voting_full/192/", "/api/v1/voting_full/194/", "/api/v1/voting_full/191/",
+        "/api/v1/voting_full/193/", "/api/v1/voting_full/195/", "/api/v1/voting_full/196/",
+        "/api/v1/voting_full/199/", "/api/v1/voting_full/197/", "/api/v1/voting_full/198/",
+        "/api/v1/voting_full/203/", "/api/v1/voting_full/201/", "/api/v1/voting_full/202/",
+        "/api/v1/voting_full/200/", "/api/v1/voting_full/204/", "/api/v1/voting_full/205/",
+        "/api/v1/voting_full/206/", "/api/v1/voting_full/208/", "/api/v1/voting_full/210/",
+        "/api/v1/voting_full/209/", "/api/v1/voting_full/207/", "/api/v1/voting_full/183/",
+        "/api/v1/voting_full/179/", "/api/v1/voting_full/177/", "/api/v1/voting_full/182/",
+        "/api/v1/voting_full/180/", "/api/v1/voting_full/226/", "/api/v1/voting_full/215/",
+        "/api/v1/voting_full/216/", "/api/v1/voting_full/222/", "/api/v1/voting_full/225/",
+        "/api/v1/voting_full/224/", "/api/v1/voting_full/221/", "/api/v1/voting_full/217/",
+        "/api/v1/voting_full/227/", "/api/v1/voting_full/229/", "/api/v1/voting_full/228/",
+        "/api/v1/voting_full/234/", "/api/v1/voting_full/223/", "/api/v1/voting_full/233/",
+        "/api/v1/voting_full/235/", "/api/v1/voting_full/232/", "/api/v1/voting_full/236/",
+        "/api/v1/voting_full/237/", "/api/v1/voting_full/240/", "/api/v1/voting_full/239/",
+        "/api/v1/voting_full/241/", "/api/v1/voting_full/211/", "/api/v1/voting_full/230/",
+        "/api/v1/voting_full/212/", "/api/v1/voting_full/214/", "/api/v1/voting_full/219/",
+        "/api/v1/voting_full/218/", "/api/v1/voting_full/220/", "/api/v1/voting_full/231/",
+        "/api/v1/voting_full/248/", "/api/v1/voting_full/247/", "/api/v1/voting_full/257/",
+        "/api/v1/voting_full/246/", "/api/v1/voting_full/254/", "/api/v1/voting_full/259/",
+        "/api/v1/voting_full/258/", "/api/v1/voting_full/252/", "/api/v1/voting_full/251/",
+        "/api/v1/voting_full/261/", "/api/v1/voting_full/250/", "/api/v1/voting_full/255/",
+        "/api/v1/voting_full/260/", "/api/v1/voting_full/256/", "/api/v1/voting_full/267/",
+        "/api/v1/voting_full/269/", "/api/v1/voting_full/262/", "/api/v1/voting_full/263/",
+        "/api/v1/voting_full/264/", "/api/v1/voting_full/265/", "/api/v1/voting_full/268/",
+        "/api/v1/voting_full/266/", "/api/v1/voting_full/272/", "/api/v1/voting_full/274/",
+        "/api/v1/voting_full/271/", "/api/v1/voting_full/270/", "/api/v1/voting_full/275/",
+        "/api/v1/voting_full/243/", "/api/v1/voting_full/276/", "/api/v1/voting_full/273/",
+        "/api/v1/voting_full/245/", "/api/v1/voting_full/244/", "/api/v1/voting_full/249/",
+        "/api/v1/voting_full/253/", "/api/v1/voting_full/282/", "/api/v1/voting_full/281/",
+        "/api/v1/voting_full/286/", "/api/v1/voting_full/289/", "/api/v1/voting_full/284/",
+        "/api/v1/voting_full/288/", "/api/v1/voting_full/287/", "/api/v1/voting_full/291/",
+        "/api/v1/voting_full/295/", "/api/v1/voting_full/293/", "/api/v1/voting_full/292/",
+        "/api/v1/voting_full/290/", "/api/v1/voting_full/294/", "/api/v1/voting_full/296/",
+        "/api/v1/voting_full/301/", "/api/v1/voting_full/298/", "/api/v1/voting_full/297/",
+        "/api/v1/voting_full/299/", "/api/v1/voting_full/304/", "/api/v1/voting_full/303/",
+        "/api/v1/voting_full/306/", "/api/v1/voting_full/310/", "/api/v1/voting_full/305/",
+        "/api/v1/voting_full/307/", "/api/v1/voting_full/308/", "/api/v1/voting_full/278/",
+        "/api/v1/voting_full/280/", "/api/v1/voting_full/277/", "/api/v1/voting_full/283/",
+        "/api/v1/voting_full/279/", "/api/v1/voting_full/285/", "/api/v1/voting_full/321/",
+        "/api/v1/voting_full/318/", "/api/v1/voting_full/313/", "/api/v1/voting_full/317/",
+        "/api/v1/voting_full/326/", "/api/v1/voting_full/319/", "/api/v1/voting_full/322/",
+        "/api/v1/voting_full/324/", "/api/v1/voting_full/323/", "/api/v1/voting_full/329/",
+        "/api/v1/voting_full/325/", "/api/v1/voting_full/330/", "/api/v1/voting_full/328/",
+        "/api/v1/voting_full/334/", "/api/v1/voting_full/327/", "/api/v1/voting_full/333/",
+        "/api/v1/voting_full/335/", "/api/v1/voting_full/331/", "/api/v1/voting_full/332/",
+        "/api/v1/voting_full/340/", "/api/v1/voting_full/338/", "/api/v1/voting_full/336/",
+        "/api/v1/voting_full/342/", "/api/v1/voting_full/339/", "/api/v1/voting_full/346/",
+        "/api/v1/voting_full/344/", "/api/v1/voting_full/337/", "/api/v1/voting_full/343/",
+        "/api/v1/voting_full/312/", "/api/v1/voting_full/311/", "/api/v1/voting_full/345/",
+        "/api/v1/voting_full/315/", "/api/v1/voting_full/316/", "/api/v1/voting_full/320/",
+        "/api/v1/voting_full/347/", "/api/v1/voting_full/114/", "/api/v1/voting_full/142/",
+        "/api/v1/voting_full/242/", "/api/v1/voting_full/213/", "/api/v1/voting_full/153/",
+        "/api/v1/voting_full/309/", "/api/v1/voting_full/314/", "/api/v1/voting_full/341/",
+        "/api/v1/voting_full/238/", "/api/v1/voting_full/185/", "/api/v1/voting_full/186/",
+        "/api/v1/voting_full/188/", "/api/v1/voting_full/300/", "/api/v1/voting_full/302/"]},
+        {"date": "2012-11-29", "id": 26, "resource_uri": "/api/v1/session/26/", "session":
+        74, "votings": ["/api/v1/voting_full/720/", "/api/v1/voting_full/1862/", "/api/v1/voting_full/1864/",
+        "/api/v1/voting_full/1865/", "/api/v1/voting_full/1863/", "/api/v1/voting_full/1866/",
+        "/api/v1/voting_full/1874/", "/api/v1/voting_full/1872/", "/api/v1/voting_full/1870/",
+        "/api/v1/voting_full/1873/", "/api/v1/voting_full/1875/", "/api/v1/voting_full/1881/",
+        "/api/v1/voting_full/1878/", "/api/v1/voting_full/1877/", "/api/v1/voting_full/1880/",
+        "/api/v1/voting_full/1876/", "/api/v1/voting_full/1883/", "/api/v1/voting_full/1882/",
+        "/api/v1/voting_full/1884/", "/api/v1/voting_full/1885/", "/api/v1/voting_full/1871/",
+        "/api/v1/voting_full/1868/", "/api/v1/voting_full/1869/", "/api/v1/voting_full/1867/",
+        "/api/v1/voting_full/1879/"]}]}'
+    http_version: 
+  recorded_at: Fri, 29 Nov 2013 18:09:37 GMT
+recorded_with: VCR 2.7.0

@@ -122,6 +122,38 @@ module Colirby
 			client_get 'voting_full', options
 		end
 
+		# Get a commision with the specified id / options
+		#
+		# @param options [Hash,Fixnum] same options as Colibri's endpoing or commission's id
+		# 	see: {http://proyectocolibri.es/documentacion/#!/commision/}
+		# @return [Array<Hashie::Mash>,<Hashie::Mash>] A Mash object with the +meta+
+		# 	and the +objects+ or a Mash with the commission info if options is an id
+		#
+		def self.commission(options={})
+			client_get 'commission', options
+		end
+
+		# Get an initiative with the specified id / options
+		#
+		# @param options [Hash,Fixnum] same options as Colibri's endpoing or initiative's id
+		# 	see: {http://proyectocolibri.es/documentacion/#!/initiative/}
+		# @return [Array<Hashie::Mash>,<Hashie::Mash>] A Mash object with the +meta+
+		# 	and the +objects+ or a Mash with the initiative info if options is an id
+		#
+		def self.initiative(options={})
+			client_get 'initiative', options
+		end
+
+		# Get a session with the specified id / options
+		#
+		# @param options [Hash,Fixnum] same options as Colibri's endpoing or session's id
+		# 	see: {http://proyectocolibri.es/documentacion/#!/session/}
+		# @return [Array<Hashie::Mash>,<Hashie::Mash>] A Mash object with the +meta+
+		# 	and the +objects+ or a Mash with the session info if options is an id
+		#
+		def self.session(options={})
+			client_get 'session', options
+		end
 
 		private
 

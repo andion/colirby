@@ -2,7 +2,7 @@ require_relative '../../test_helper'
 
 require_relative './client/member_group_party_test'
 require_relative './client/vote_test'
-#require_relative './client/comission_initiative_session_test'
+require_relative './client/commission_initiative_session_test'
 
 describe Colirby::Client do
 
